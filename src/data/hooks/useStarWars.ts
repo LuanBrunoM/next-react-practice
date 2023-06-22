@@ -1,10 +1,9 @@
-import { useState } from "react"
+import { useEffect, useState } from "react"
 import useProcessando from "./useProcessando"
 
 export default function useStarWars(){
   const { processando, iniciarProcemento, finalizarProcessamento } = useProcessando()
   const [personagens, setPersonagens] = useState<any>([])
-
 
   async function obterPersonagens() {
     try {

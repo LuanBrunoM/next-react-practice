@@ -1,4 +1,4 @@
-import ImagemAletoria from "@/components/hooks/ImgamAleatoria";
+import ImagemAletoria from "@/components/hooks/ImagemAleatoria";
 
 export default function PaginaImagens() {
   return (
